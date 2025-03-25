@@ -3,7 +3,7 @@
 
 # Japandi by Webhooked
 
-Japandi combines the warmth of Japanese minimalism with Scandinavian functionality to create a coding environment that's serene and focused. This theme features a carefully selected palette of muted earth tones, gentle contrasts, and natural textures, bringing harmony to your development experience.
+Japandi combines the minimalism of Japanese design with the elegance of Scandinavian style to create a coding environment that's serene and focused. to create a coding environment that's serene and focused. This theme features a carefully selected palette of muted earth tones, gentle contrasts, and natural textures, bringing harmony to your development experience.
 
 ## Recommended Settings and extension
 
