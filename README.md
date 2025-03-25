@@ -27,4 +27,4 @@ This theme is crafted by Webhooked, inspired by the Japandi design philosophy th
 
 Search for "Japandi Theme" in the VSCode extensions panel or click "Install" from the marketplace website.
 
-<a href="https://marketplace.visualstudio.com/items?itemName=Webhooked.japandi"><strong>Install now</strong></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=japandi.theme-japandi"><strong>Install now</strong></a>
