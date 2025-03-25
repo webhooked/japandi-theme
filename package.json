@@ -1,0 +1,55 @@
+{
+	"name": "theme-japandi",
+	"version": "0.1.0",
+	"displayName": "Japandi Theme",
+	"homepage": "https://japandi.dev/",
+	"description": "Japandi combines the warmth of Japanese minimalism with Scandinavian functionality to create a coding environment that's serene and focused.",
+	"publisher": "Japandi",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./scripts/build.js",
+		"lint": "node ./scripts/lint.js",
+		"package": "vsce package -o ./bin/japandi.vsix",
+		"vscode:prepublish": "npm run build",
+		"vsce-publish": "vsce publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/webhooked/japandi-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/webhooked/japandi-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": ["Themes"],
+	"keywords": [
+		"japandi",
+		"minimalistic",
+		"minimalism",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#131418",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Japandi Theme",
+				"uiTheme": "vs-dark",
+				"path": "./theme/japandi.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"js-yaml": "^4.1.0",
+		"prettier": "^3.0.0",
+		"tinycolor2": "^1.6.0",
+		"vsce": "^2.15.0"
+	}
+}

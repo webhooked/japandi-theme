@@ -1,0 +1,7 @@
+node_modules/
+/theme/
+/tests/
+bin/
+.vscode/
+.DS_Store
+.github/
